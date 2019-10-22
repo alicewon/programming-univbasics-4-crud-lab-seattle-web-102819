@@ -9,12 +9,12 @@ end
 
 def add_element_to_end_of_array(array, element)
   array << "arrays!"
-
   p array
 end
 
 def add_element_to_start_of_array(array, element)
-
+  array.unshift("wow")
+  p array
 end
 
 def remove_element_from_end_of_array(array)
