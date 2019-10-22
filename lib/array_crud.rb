@@ -4,6 +4,7 @@ end
 
 def create_an_array
   new_array= ["tacos", "pizza", "cookies", "salad"]
+  p new_array
 end
 
 def add_element_to_end_of_array(array, element)
